@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background: url('https://img.freepik.com/free-photo/travel-concept-with-baggage_23-2149153260.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.overlay {
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0066cc;
+}
+.horizontal-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.form-group {
+  margin: 10px;
+}
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #28a745;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background: #218838;
+}
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.icon {
+  background: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+.icon i {
+  font-size: 24px;
+  color: #0066cc;
+}
+.icon p {
+  font-size: 12px;
+  margin-top: 5px;
+}
